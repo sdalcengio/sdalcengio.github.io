@@ -1,0 +1,73 @@
+/* Make the progress bar thicker */
+#progress-bar-container,
+.progress-container,
+#progress-container {
+  height: 6px !important;   /* try 5–8px */
+}
+
+#progress-bar,
+.progress-bar,
+#progress {
+  height: 6px !important;
+}
+
+/* Progress bar: make BOTH the track and the fill always theme-colored */
+#progress-bar-container,
+.progress-container,
+#progress-container {
+  background-color: var(--global-theme-color) !important;
+  background-image: none !important;
+  opacity: 1 !important;
+}
+
+#progress-bar,
+.progress-bar,
+#progress {
+  background-color: var(--global-theme-color) !important;
+  background-image: none !important;
+  opacity: 1 !important;
+}
+
+/* If it's implemented as a <progress> element in some pages/browsers */
+progress#progress-bar {
+  color: var(--global-theme-color) !important;
+  background: var(--global-theme-color) !important;
+}
+
+progress#progress-bar::-webkit-progress-bar {
+  background: var(--global-theme-color) !important;
+}
+
+progress#progress-bar::-webkit-progress-value {
+  background: var(--global-theme-color) !important;
+}
+
+progress#progress-bar::-moz-progress-bar {
+  background: var(--global-theme-color) !important;
+}
+
+/* Reduce size of social icons at the bottom */
+.social-icons a i,
+.social-icons a svg {
+  font-size: 0.3rem;   /* try 0.9–1.2rem */
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.clearfix div {
+    padding-top: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+
+.page.about .about-text {
+  margin-top: 6rem;
+}
+
+.contact-quote {
+  font-size: 5px;
+  line-height: 5px;
+}

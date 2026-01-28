@@ -2,11 +2,13 @@
 layout: cv
 permalink: /cv/
 title: CV
+page_heading: Short CV
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
+nav_order: 3
+cv_pdf: /assets/pdf/Sara_Dal_Cengio_CV.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Check the PDF for a full curriculum.
 toc:
   sidebar: left
+
 ---
